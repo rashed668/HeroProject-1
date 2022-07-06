@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.half-area{
+    width: 50%;
+    margin: 50px;
+}
+
+/* ========= header-area ========== */
+.header-area{
+    
+}
+.header-area .half-area h1{
+    font-size: 35px;
+    line-height: 1.3em;
+}
+span{
+    color: orange;
+}
+.header-area .half-area p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.half-area a{
+    text-decoration: none;
+    background: linear-gradient(138deg, orange, tomato);
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #fff;
+}
+.header-area .half-area .myImg{
+    width: 100%;
+}
+
+/* ======== about-area ======== */
+.about-area{
+    background-image: url("./img/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin-bottom: 50px;
+}
+.about-area .half-area{}
+.about-area .half-area .foodImg{
+    width: 100%;
+}
+.about-area .half-area h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.about-area .half-area p{
+    margin-bottom: 10%;
+}
+.about-area .half-area a{}
+
+/* ======== recipies-area ======== */
+.recipies-area{
+    margin: 40px;
+}
+.recipies-area h1{
+    text-align: center;
+}
+.recipies-area .lorem{
+    text-align: center;
+    width: 50%;
+    margin: 0px auto;
+    margin-bottom:10px;
+}
+.recipies-area .card{}
+.recipies-area .card .box{
+    width: 50%;
+    box-shadow: 4px 10px 40px #ddd;
+    margin: 10px;
+
+}
+.recipies-area .card .box img{
+    padding: 15px;
+    width: 100%;
+    display: block;
+
+}
+.recipies-area .card .box h2{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.recipies-area .card .box p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* ========== youtube-area ======== */
+.youtube-area{
+    margin: 50px;
+    box-shadow: 4px 10px 40px #ddd;
+    padding: 50px 0px 50px 150px;
+    border-radius: 10px;
+}
+.youtube-area .card{}
+.youtube-area .card .box{
+    width: 50%;
+}
+.youtube-area .card .box h2{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+/* ======== footer-area ========= */
+.footer-area{
+    background: #000;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+.footer-area h1{
+    margin-bottom: 15PX;
+}
+.footer-area p{
+    font-size: 14px;
+}
